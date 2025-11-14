@@ -16,6 +16,8 @@ import polyLogo from './assets/education_logos/polyLogo.png'
 
 // projects logs
 import banner from './assets/work_logos/banner.png'
+import invoice from './assets/work_logos/invoice.png'
+
 
 export const SkillsInfo = [
     {
@@ -56,6 +58,15 @@ export const projects = [
         tags: ["JavaScript", "React JS", "Node JS", "MongoDB"],
         github: "https://github.com/Aditya-Chauhan01/Doctor-Appointment-System/tree/main",
         webapp: "https://doctor-appointment-system-frontend-s3vm.onrender.com/",
+    },
+    {
+        id: 1,
+        title: "AI invoice Generator",
+        description: "A full-stack web app that automates invoice creation, and generate reminders using AI. Integrated Gemini API to auto-fill invoice data, and provide actionable insights. Includes JWT-based authentication, and responsive dashboard UI.",
+        image: invoice,
+        tags: ["JavaScript", "React JS", "Node JS", "MongoDB"],
+        github: "https://github.com/Aditya-Chauhan01/AI-Invoice-App",
+        webapp: "https://ai-invoice-app-mhxv.onrender.com/",
     },
 ];
 
